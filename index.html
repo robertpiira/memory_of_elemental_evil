@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">  
+  <title>Memory of Elemental Evil</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles/all.css" rel="stylesheet" media="all">
+</head>
+
+<body class="s-game-off s-game-hold">
+
+  <div class="game-header">
+    <h1>Memory of Elemental Evil</h1>
+  </div>
+
+  <div class="players-wrapper">  
+    <div class="players"></div>
+  </div>
+
+  <div class="game-setup-wrapper">
+    <section class="game-setup">
+      <div class="game-setup-content">
+        <ul class="game-setup-player-list"></ul>
+      </div>
+    </section>
+  </div>
+
+  <div class="start-screen">
+    <button class="start-new-game-btn">Start new game</button>
+    <h2>Heroes in memory</h2>
+    <ol class="hall-of-fame-list"></ol>
+  </div>
+  
+  <div class="wrap">
+    <main role="main" class="game-board"></main>   
+  </div>
+
+  <div class="end-game-panel is-hidden">
+    <button class="continue-game-btn">Continue</button>
+    <button class="restart-game-btn">Restart</button>
+  </div>
+
+  <div class="game-map-wrapper is-hidden">Map</div>
+
+  <script src="scripts/memory_game.js"></script>
+  
+</body>
+</html>
